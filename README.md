@@ -9,5 +9,6 @@ The app URL is :  For Vote: http://52.23.253.235:5000/
                   For result: http://52.23.253.235:5001/ 
 Github: 
 Diagram
- ![image](https://github.com/MdRasel0/assignment-1/assets/52493009/c878720d-c997-4f9e-9c1a-6900ce4b6b89)
+ <img width="304" alt="image" src="https://github.com/MdRasel0/assignment-1/assets/52493009/ec290992-fffb-46bd-ba3e-b7a0ae1e38f3">
+
 
