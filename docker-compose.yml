@@ -1,0 +1,23 @@
+services:
+#Creating the front end voting container
+   vote:
+     image: "vote"
+     ports:
+       - "5000:80"
+#running the redis app voting is depends on this
+   redis:
+     image: "redis"
+#running the db result and worker are depends on it
+   db:
+     image: "postgres"
+     environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+#running the worker on .net
+   worker:
+     image: "worker"
+#running the result on .node
+   result:
+     image: "result"
+     ports:
+       - "5001:80"
